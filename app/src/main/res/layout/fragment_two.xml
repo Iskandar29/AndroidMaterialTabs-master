@@ -1,15 +1,42 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="info.androidhive.materialtabs.fragments.TwoFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/two"
-        android:textSize="40dp"
-        android:textStyle="bold" />
 
-</RelativeLayout>
+
+    <Button
+        android:drawableLeft="@drawable/kotakk"
+        android:drawableRight="@drawable/kotakk"
+        android:id="@+id/btnpersegi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="persegi"/>
+
+    <Button
+        android:drawableLeft="@drawable/pp0"
+        android:drawableRight="@drawable/pp0"
+        android:id="@+id/btnpersegipanjang"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="persegi panjang" />
+
+    <Button
+        android:drawableRight="@drawable/segi"
+        android:drawableLeft="@drawable/segi"
+        android:id="@+id/btnsegitiga"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="segitiga"/>
+
+    <Button
+        android:drawableLeft="@drawable/bun"
+        android:drawableRight="@drawable/bun"
+        android:id="@+id/btnlingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="lingkaran"/>
+
+</LinearLayout>

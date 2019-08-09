@@ -37,6 +37,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:background="#FBAF0D"
             android:id="@+id/btntambah"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="x"
-            android:textSize="@android:dimen/app_icon_size"
+            android:textSize="43dp"
             android:text="x"/>
 
 
@@ -65,6 +66,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:background="#FBAF0D"
             android:id="@+id/btnkurang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint=":"
-            android:textSize="@android:dimen/app_icon_size"
+            android:textSize="43dp"
             android:text=":"/>
 
 
